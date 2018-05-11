@@ -1,0 +1,160 @@
+.margin{
+    margin: 5px
+}
+.midBtn{
+    position: relative;
+    left: 50%
+}
+.inputDiv{
+    width: 300px;
+    height: 250px;
+}
+
+.inline{
+    display: inline;
+}
+.block{
+    display: block;
+    position: absolute;
+    top: 10px;
+}
+
+.btnImg{
+    height: 80px;
+    width: 70px;
+    left: 15px;
+    position: relative;
+    
+}
+.navBtn{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 1px solid dimgray;
+    background-color: white;
+    
+}
+.navBtn:hover{
+    background-color: dimgray;
+    border: 1px solid black
+}
+.navBar{
+    width: 100%;
+    background: rgba(169, 169, 169,0.6);
+    position: fixed;
+    z-index: 1000;
+    min-width: 1425px;
+}
+.mainImagesDiv{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+html, body, head{
+    padding: 0px;
+    margin: 0px;
+}
+
+.arrow{
+    position: fixed;
+    display: block;
+    width: 150px;
+    height: 75px;
+    top: 100px;
+    left: 25px;
+   
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.bgImg{
+    width: 100%;
+    height: 100%;
+    min-width: 1200px;
+    min-height: 500px;
+    position: relative;
+}
+
+/* @keyframes ArrowOne{
+    0%   {left:-150px; display: inline;}
+    100% {left:1250px; display: none}
+
+}
+@keyframes ArrowTwo{
+    0%   {left:-150px; display: inline;}
+    100% {left:1250px; display: none;}
+
+}
+
+
+
+.AnimatedArrowSlow{
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    animation-name: ArrowOne;
+    animation-duration: 2s;
+    display: inline-block;
+}
+
+.AnimatedArrowVerySlow{
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    animation-name: ArrowOne;
+    animation-duration: 2.3s;
+    display: inline-block;
+}
+
+
+.AnimatedArrowFast{
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    animation-name: ArrowTwo;
+    animation-duration: 1.5s;
+    display: inline-block;
+}
+
+.arrow1{
+    top: 350px;
+}
+
+.arrow2{
+    top: 300px;
+}
+
+.arrow3{
+    top: 250px;
+}
+
+.arrow4{
+    top: 200px;
+}
+
+.arrow5{
+    top: 400px;
+} */
+
+.mainText{
+    position: fixed;
+    top: 200px;
+    left: 15px;
+    width: 50%;
+    min-width: 700px;
+    background-color: rgba(169,169,169,0.4);
+    
+}
+
+@font-face { 
+    font-family: GreatVibes; 
+    src: url("Great_Vibes\\GreatVibes-Regular.ttf");
+}
+
+.pText{
+    font-family: GreatVibes;
+    font-size: 40px;
+    font-weight: bold;
+}
